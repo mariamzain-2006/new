@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff589e;
+  --color-hover: #8261ee;
+  --color-text: #777;
+  --color-gray: #ddd;
+  --color-brand-white: #fff;
+  --color-brand-black: #333;
+
+  --shadow-custom: 0 2px 48px 0 rgb(0 0 0 / 10%);
+
+  --text-h1: 36px;
+  --text-h2: 24px;
+  --text-h5: 18px;
+  --text-normal: 15px;
+  --text-small: 13px;
+
+  --tracking-letter: 1.4px;
+  --radius-custom: 20px;
+  --leading-custom: 54px;
+
+  --font-sans: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-gradient: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
